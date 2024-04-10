@@ -1,8 +1,11 @@
 {
-  "devDependencies": {
-    "@uwu/lune": "^1.2.1",
-    "@uwu/shelter-defs": "^1.1.0"
-  },
-  "type": "module",
-  "workspaces": ["plugins/*"]
+   "devDependencies": {
+      "@uwu/lune": "^1.3.0",
+      "@uwu/shelter-defs": "^1.3.0",
+      "prettier": "^3.2.5"
+   },
+   "type": "module",
+   "scripts": {
+      "format": "prettier --write ."
+   }
 }

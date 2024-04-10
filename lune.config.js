@@ -1,4 +1,3 @@
 import { defineConfig } from "@uwu/lune";
 
-export default defineConfig({
-});
+export default defineConfig({});

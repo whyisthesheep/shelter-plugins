@@ -24,6 +24,10 @@ jobs:
          - name: Build plugin(s)
            run: pnpm exec lune ci
 
+           # Foolproof feature:
+           # - Copies over README so that the root of the deployed website shows it
+           # - Changes 404 page to README so that you don't get lost while clicking links
+           # If you remove this step then you should probably remove the enable_jekyll option in the next one
          - name: Copy additional files
            run: |
               cp -r assets dist
@@ -38,4 +42,7 @@ jobs:
            with:
               github_token: ${{ secrets.GITHUB_TOKEN }}
               publish_dir: ./dist
+              # Makes it so the md files in the previous step get processed by GitHub Pages
               enable_jekyll: true
+              # This creates the CNAME file required to host github pages on a custom domain
+              cname: shelter.xirreal.dev
