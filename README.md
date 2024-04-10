@@ -7,4 +7,4 @@ Copy the full repo url and paste it into shelter's add plugin menu.
 
 ## Anselcord
 Makes the discord icon ansel
-- Install: `https://whyisthesheep.github.io/shelter-plugins/anselcord/` 
+- `https://whyisthesheep.github.io/shelter-plugins/anselcord/` 
