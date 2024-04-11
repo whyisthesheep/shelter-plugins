@@ -31,6 +31,7 @@
   var menusvg = document.querySelector("#app-mount > div.appAsidePanelWrapper__5e6e2 > div.notAppAsidePanel__95814 > div.app_b1f720 > div > div.layers__1c917.layers_a23c37 > div > div > nav > ul > div.scroller_de945b.none_ff9f86.scrollerBase__65223 > div.tutorialContainer_b06ae6 > div > div.listItemWrapper__3d465 > div > svg > foreignObject > div > div > svg");
   function onLoad() {
     if (menuimage) {
+      log("Menu img");
       const udimagei = document.createElement("img");
       udimagei.src = "https://0x0.st/Xikk.png";
       udimagei.style.width = "48px";
@@ -44,6 +45,7 @@
       udimagei.style.transform = "translate(-50%, -50%)";
       menuimage.replaceWith(udimagei);
     } else if (menusvg) {
+      log("Menu svg");
       const udimages = document.createElement("img");
       udimages.src = "https://0x0.st/Xikk.png";
       udimages.style.width = "48px";
