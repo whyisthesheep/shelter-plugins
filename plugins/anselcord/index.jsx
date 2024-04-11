@@ -7,6 +7,7 @@ const menusvg = document.querySelector("#app-mount > div.appAsidePanelWrapper__5
 
 export function onLoad() {
     if (menuimage) {
+        log("Menu img")
         const udimagei = document.createElement("img");
         udimagei.src = "https://0x0.st/Xikk.png";
         udimagei.style.width = "48px";
@@ -20,6 +21,7 @@ export function onLoad() {
         udimagei.style.transform = "translate(-50%, -50%)";
         menuimage.replaceWith(udimagei);
     } else if (menusvg) {
+        log("Menu svg")
         const udimages = document.createElement("img");
         udimages.src = "https://0x0.st/Xikk.png";
         udimages.style.width = "48px";
