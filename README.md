@@ -14,4 +14,4 @@ Removes annoying UI elements. You can view which things [here](https://raw.githu
 ## Anselcord
 - `https://whyisthesheep.github.io/shelter-plugins/anselcord/`
 
-Makes the discord icon ansel 
+Makes the discord icon ansel.
