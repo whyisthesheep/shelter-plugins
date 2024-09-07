@@ -9,7 +9,7 @@ export function onLoad() {
         log("SVG element found!");
         
         const imgElement = document.createElement("img");
-        imgElement.src = "https://0x0.st/Xikk.png";
+        imgElement.src = "https://api-minecraft.net/mrit63bn.png";
         
         imgElement.style.width = "48px";
         imgElement.style.height = "48px";
